@@ -1,0 +1,77 @@
+* {margin: 0px;}
+
+/*-- BODY -----------------------------*/
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/*-- HEADER ------------------*/
+header{
+    text-align: center;
+    height: 150px;
+    background-color: #84383e;
+    color: white;
+}
+header h1{
+    font-size: 20pt;
+    padding: 30px 0px 30px 0px;
+    text-transform: uppercase;
+}
+/*-- MAIN --------------------*/
+main{
+    min-width: 520px;
+    max-width: 1050px;
+    margin: 10px auto;
+    text-align: center;
+}
+main h2{
+    font-size: 16pt;
+    /*background-color: #79d2a6;*/
+    color: #2d8659;
+    padding: 5px 5px;
+    border-bottom: 2px solid #79d2a6;
+
+}
+/*-- SECTION --------------------------*/
+section{
+    min-height: 300px;
+    padding: 5px;
+}
+article{
+    margin: 3px 2px;
+    padding: 5px 0px 0px 0px;
+    background-color: #79d2a6;
+    width: 255px;
+    height: 90px;
+    display: inline-table;
+    cursor: pointer;
+}
+article div{
+	
+}
+article:hover{
+    background-color: #40bf80;
+}
+article .art-topic{
+    display: block;
+    font-size: 14pt;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #26734d;
+    margin: 4px 0px;
+}
+article .art-name{
+    color: black;
+}
+/*-- FOOTER ---------------------------*/
+footer{
+    text-align: center;
+    height: 60px;
+    padding: 30px 20px 20px 20px;
+    background-color: #2A2A2A;
+}
+
+
+/*-------------------------------------*/
+a {
+    text-decoration: none;
+    color: white;
+}

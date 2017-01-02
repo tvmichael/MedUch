@@ -1,0 +1,17 @@
+*{margin: 0px;}
+
+
+header{
+	text-align: center;
+	background-color:	#FA8072 ;
+	color:#000000;
+	padding: 20px;
+}
+h2{
+	background-color: #FA8072;
+	color:#000000;
+}
+footer{
+	text-align: center;
+}
+
