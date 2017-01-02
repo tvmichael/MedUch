@@ -1,0 +1,7 @@
+/* font-myset.css */
+
+@font-face {
+    font-family: myFirstOne;
+    src: url(../fonts/Cuprum-Regular.ttf);
+}
+
