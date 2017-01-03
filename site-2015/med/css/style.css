@@ -1,0 +1,149 @@
+/*Генератор
+різні		http://www.css3maker.com 
+кольору 	http://mainspy.ru/kod_cveta_html
+
+*/
+
+body{
+min-width: 680px;}
+
+/*--- HEADER ----------------------------------------------------------------*/
+header{			
+	background-color: rgba(132, 50, 60, 0.9); 		
+}
+#div-header{		
+	width:80%;
+	height: 80px;
+	margin: 0 auto;	
+	padding: 15px 10px 5px 20px;
+	background-color: rgba(130, 50, 60, 1);		
+}
+#logo1{		
+	color: white;
+	font-size: 28pt;
+	text-shadow: 2px 2px 2px #000000;			
+}
+#logo2{			
+	width:95%;
+	position:relative;	
+	top: 10px;
+	left: 20px;			
+}
+
+/*--- CONTENT ---------------------------------------------------------------*/
+#content{
+	width: 80%;
+	margin: 0 auto;		
+	min-height: 600px;		
+}
+section{		
+	min-height:200px;
+	margin: 20px auto;
+	padding: 5px 10px;	
+	border:solid 1px #84383e;
+}
+section:hover{	
+	box-shadow:0px 0px 3px red;
+}
+article {
+	display: inline-block;	
+	width: 240px;
+	height: 100px;
+	background: rgba(232, 232, 232, 1);
+	margin: 2px;	
+	border: 3px dotted white;
+	font-size: 16pt;
+	vertical-align: middle;
+	color: gray;
+}
+article:hover {	
+	background: rgba(132, 50, 60, 1);	
+	border: 3px dotted white;
+	color: white;			
+}
+article div:hover {	
+	background: rgba(132, 50, 60, 1);
+	color: white;
+}
+article h1{
+	margin: 5px 0px 10px 0px;
+	font-weight: bold;	
+	text-shadow: 0px 0.5px 0.5px black;
+	font-size: 16pt;		
+}
+article a{
+	color: gray;
+}
+.center {
+    text-align: center;
+}	
+.marka{
+	height: 91px;
+	margin: 3px;
+	border: 1px double white;
+	/*background: rgba(220, 230, 230, 1);*/
+	background-image: url('../images/bg.gif');
+	font-size: 12pt;
+}
+.marka-b1{
+	background-image: url('../images/bg.gif');
+}
+.marka-b2{
+	background-image: url('../images/bg5.jpg');
+}
+.marka-b3{
+	background-image: url('../images/bg3.jpg');
+}
+
+.mark::after{
+	content: "!";
+    color: red;
+    position: relative;	
+	left: 15px;
+    font-size: 26pt; 
+	font-weight: bold;
+	margin: 0px;
+	-box-box-shadow: 10px 10px 100px #09F;
+	text-shadow:0 0 4px white, 0 -5px 4px #FFFF33, 2px -10px 6px #FFDD33, -2px -15px 11px #FF8800, 2px  -25px 18px #FF2200;      
+	padding:0;
+}
+.shadowx{
+	text-shadow: 0 0 1px white, 0 -1px 2px #FFFF33, 1px -3px 2px #FFDD33, -1px -5px 4px #FF8800, 1px  -5px 8px #FF2200;      
+}
+
+/*--- FOOTER ----------------------------------------------------------------*/
+footer{
+	background-color: rgba(132, 50, 60, 0.9);	
+	height: 80px;
+}
+#div-footer{
+	width:80%;
+	height: 50px;
+	margin: 0 auto;	
+	padding: 5px 5px 5px 5px;
+	background-color: rgba(130, 50, 60, 1);	
+}
+footer h4{
+	padding: 0px 0px 0px 50px;
+}
+
+/*--- ALL TEG ----------------------------------------------------------------*/
+h2{
+	font-size: 14pt;	
+	color:#7E553F;	
+	margin: 0px 0px 10px 0px;
+}
+h3{
+	font-size: 14pt;	
+	text-shadow: 1px 1px 1px gray;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+a:hover {
+	color:white;
+}
+b{
+	font-weight: bold;
+}

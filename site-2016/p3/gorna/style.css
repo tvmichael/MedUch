@@ -1,0 +1,39 @@
+﻿* { margin: 0px; }
+body {
+  font-family: sans-serif, verdana;  
+}
+header {
+  background-color:Linen;
+  color: rgb(241, 92, 109);
+  padding: 50px;
+  text-align: center;
+}
+main{  
+  background-color:Linen;  
+  min-width: 600px;
+  max-width: 900px;
+  margin: 1px auto;
+  padding: 10px;
+}  
+h2{
+  background-color:rgb(200, 116, 105);
+  padding: 1px 15px;
+  color: rgb(187, 255, 90);
+}
+p{
+  text-align: justify;
+  text-indent: 15px;
+}
+table{
+  text-align: left; 
+  width: 100%;  
+}
+footer {
+  background: DimGrey;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.center{
+	text-align: center;
+}

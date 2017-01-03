@@ -1,0 +1,42 @@
+﻿*  {margin: 0p;}
+body {
+  font-family: sans-serif, verdana;  
+  background-image: url(h.jpg);
+}
+header {
+  background-color:RosyBrown;
+  color: Wheat;
+  padding: 50px;
+  text-align: center;
+ }
+ main{  
+  background-color: White;  
+  min-width: 600px;
+  max-width: 900px;
+  margin: 1px auto;
+  padding: 10px;
+}  
+h3{
+  background-color: Wheat;
+  padding: 1px 15px;
+  color: RosyBrown;
+}
+p{
+  text-align: justify;
+  text-indent: 15px;
+}
+table{
+  text-align: left; 
+  width: 100%;  
+}
+footer {
+  background: RosyBrown;
+  padding: 20px;
+    text-align: center;
+  color: RosyBrown;
+}
+.tu{
+	text-align:center;
+}
+
+

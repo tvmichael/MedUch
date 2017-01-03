@@ -1,0 +1,19 @@
+﻿
+html, body, div {
+	margin: 0;
+	padding: 0;}
+
+div{
+	width: 80%;
+	margin: 0 auto;}	
+	
+header {
+	height: 150px;
+	background: #0FBAFF;}
+
+footer {
+	clear:both;
+	width: 80%;
+	margin: 0 auto;
+	height: 100px;
+	background: #0FBAFF;}
