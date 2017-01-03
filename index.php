@@ -1,8 +1,13 @@
+<?php    
+header('Location: /meduch/index.html');
+?> 
+
+print "
 <!DOCTYPE html>
 <html>	
 	<head>    
 		<title>UA</title>
-		<meta content="charset=utf-8">			
+		<meta content='charset=utf-8'>			
 	</head>
 	<body>	
 	<!-- HEADER -->
@@ -18,7 +23,7 @@
 		<div>		
 		</div>
 		Page:
-		<a	href="/meduch/index.html" target="_blank"> OPEN </a>
+		<a href='/meduch/index.html' target='_blank'> OPEN </a>
 	</main>
 	<!-- /MAIN -->
 	<!-- FOOTER -->
@@ -27,3 +32,4 @@
 	<!-- /FOOTER -->	
 	</body>
 </html>
+";
