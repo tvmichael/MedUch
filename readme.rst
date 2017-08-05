@@ -6,4 +6,4 @@ What is 'MedUch'
 *********
 Site
 *********
-   Http: `Open page <http://legko.esy.es>`_.
+  Http: `Open page <http://meduch.esy.es/meduch/index.html>`_.
